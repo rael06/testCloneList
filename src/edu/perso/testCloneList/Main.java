@@ -2,7 +2,6 @@ package edu.perso.testCloneList;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
     private static final int LIST_SIZE = 10;
@@ -32,8 +31,8 @@ public class Main {
 
     private static List<String> initList() {
         List<String> list = new ArrayList<>();
-        for (int i =0;i<LIST_SIZE; i++){
-            list.add("Line n°"+ (i+1));
+        for (int i = 0; i < LIST_SIZE; i++) {
+            list.add("Line n°" + (i + 1));
         }
         return list;
     }
